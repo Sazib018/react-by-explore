@@ -26,7 +26,7 @@
 function StudentInfo({ name, age, isMale }) {
 
     const cardStyle = {
-        border: "2px solid green",
+        border: "4px solid green",
         borderRadius: "20px",
         padding: "20px",
     };
@@ -48,7 +48,7 @@ function StudentInfo({ name, age, isMale }) {
             }
         </div>
     );
-    
+
 }
 
 export default StudentInfo;
