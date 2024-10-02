@@ -28,21 +28,16 @@ function StudentInfo({ name, age, isMale }) {
     const cardStyle = {
         border: "4px solid green",
         borderRadius: "20px",
-        padding: "20px",
+        padding: "25px",
     };
 
     return (
         <div style={cardStyle}>
             <h3 style={{ color: "red" }}>Student Information</h3>
-            <p
-                style={{
+            <p style={{
                     fontSize: "20px",
-                    color: "blue"
-                }}
-            >
-                my name: {name}
-            </p>
-            <p>my age: {age}</p>
+                    color: "blue"}}> My Name: {name}</p>
+            <p>Age: {age}</p>
             {
                 isMale === true ? <div> Boy </div> : <div>Girl</div>
             }
