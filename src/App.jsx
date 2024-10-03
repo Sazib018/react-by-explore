@@ -1,6 +1,7 @@
 import "./App.css";
 import Counter from "./componets/Counter/Counter";
 import Person from "./componets/Person/Person";
+import Post from "./componets/Post/Post";
 import StudentInfo from "./componets/StudentInfo/Studentsinfo";
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-    <Counter></Counter>
+   <Post></Post>
+
+  {/*   <Counter></Counter> */}
 
      {/*  <div className="mb-6">
         <StudentInfo name="Asif" age="24" isMale={true}></StudentInfo>
